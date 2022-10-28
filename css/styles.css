@@ -1,0 +1,216 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 20px 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 20px;
+  flex-wrap: wrap;
+}
+nav div {
+  margin: auto 0;
+}
+nav div a {
+  color: #000;
+}
+nav .ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+nav .ul li {
+  margin: auto 10px;
+}
+nav .ul li a {
+  color: #000;
+}
+nav form button {
+  background-color: orange;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+}
+
+.box-txt {
+  width: 40%;
+}
+
+.s-2 .boxs-1 {
+  margin: 100px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.s-2 .boxs-1 .txt {
+  margin: auto 50px;
+}
+.s-2 .boxs-1 .img-2 img {
+  width: 450px;
+}
+.s-2 .boxs-1 h2 {
+  font-size: 50px;
+  line-height: 70px;
+}
+.s-2 .boxs-1 p {
+  font-size: 20px;
+  width: 90%;
+  margin: 20px 0;
+  line-height: 30px;
+}
+.s-2 .boxs-1 img {
+  width: 550px;
+}
+.s-2 .boxs-1 button {
+  background-color: orange;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+}
+.s-2 .boxs-1 h3 {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.s-3 h3 {
+  margin: 50px 0;
+  font-size: 30px;
+  text-align: center;
+}
+.s-3 .p-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.s-3 .p-1 div {
+  padding: 10px 40px;
+  text-align: center;
+  border-radius: 10px;
+  width: 300px;
+  height: 325px;
+  border: 2px solid rgb(206, 199, 199);
+}
+.s-3 .p-1 div .d-4 {
+  width: 150px;
+}
+.s-3 .p-1 div h5, .s-3 .p-1 div h4 {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.s-4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.s-4 div img {
+  width: 450px;
+}
+.s-4 .txt-2 {
+  width: 40%;
+  margin: auto 50px;
+}
+.s-4 .txt-2 p {
+  margin: 20px 0 30px;
+}
+.s-4 .txt-2 h3 {
+  margin: 30px 0;
+  font-size: 30px;
+}
+.s-4 button {
+  background-color: orange;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+}
+
+.s-5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: 40px;
+  margin-top: 50px;
+}
+.s-5 .box-1 {
+  width: 40%;
+}
+.s-5 .box-1 h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.s-5 .box-1 p {
+  line-height: 25px;
+}
+.s-5 .box-3 {
+  margin: auto 0;
+}
+.s-5 .box-3 button {
+  background-color: orange;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+}
+
+footer {
+  background-color: hsl(45deg, 96%, 79%);
+  line-height: 50px;
+  margin-top: 100px;
+}
+footer .s-6 {
+  padding-top: 100px;
+  line-height: 30px;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .s-6 i {
+  font-size: 20px;
+  margin-left: 10px;
+}
+footer .s-6 .h-1 {
+  width: 200px;
+}
+footer .s-6 h6 {
+  font-size: 25px;
+}
+footer .finish {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.back-top {
+  position: absolute;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background-color: red;
+  height: 30px;
+  width: 40px;
+}
+.back-top a {
+  color: white;
+  padding: 10px 5px;
+}/*# sourceMappingURL=styles.css.map */
