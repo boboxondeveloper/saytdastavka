@@ -16,9 +16,10 @@ a {
 .container {
     max-width: 1050px;
     margin: 0 auto;
-    padding: 20px 50px;
+    padding: 0 50px;
 }
 nav {
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -220,5 +221,105 @@ footer {
     a {
         color: white;
         padding: 10px  5px;
+    }
+} @media  (max-width: 500px) {
+    .s-1 {
+        button {
+           display: none; 
+        }
+        div {
+            margin-right: 5px;
+            a {
+                font-size: 20px;
+            }
+        }
+        .ul {
+            li {
+                margin: 5px;
+                
+                a {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    .s-2 {
+        .box-txt {
+            width: 90%;
+            margin: 0;
+        }
+        .boxs-1 {
+            margin-top: 50px;
+            .txt {
+                margin: auto 10px;
+            }
+            .img-2 {
+                img {
+                    width: 300px;
+                }
+            }
+            h2 {
+                font-size: 20px;
+                line-height: 30px;
+            }
+            p {
+                font-size: 10px;
+                width: 100%;
+                margin: 10px 0;
+                line-height: 10px;
+    
+            }
+            img {
+                width: 300px;
+            }
+            button {
+                font-size: 10px;
+                padding: 10px;
+            }
+            h3 {
+                font-size: 15px;
+                line-height: 10px;
+            }
+        }
+    }
+    .s-4 {
+        div {
+            img {
+                width: 300px;
+            }
+        }
+        .txt-2 {
+            margin: 10px;
+            width: 90%;
+            button {
+                margin-top: 10px;
+            }
+        }
+    }
+    .s-5 {
+        .box-1 {
+            width: 90%;
+        }
+    }
+    footer {
+        .s-6 {
+            i {
+                margin: 50px 5px;
+                font-size: 30px;
+            }
+
+            .h-1 {
+                width: 150px;
+            }
+            h6 {
+                margin-top: 20px;
+                font-size: 15px;
+            }
+            }
+            .finish {
+                margin-top: 50px;
+                text-align: center;
+            }
+
     }
 }

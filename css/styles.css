@@ -16,10 +16,11 @@ a {
 .container {
   max-width: 1050px;
   margin: 0 auto;
-  padding: 20px 50px;
+  padding: 0 50px;
 }
 
 nav {
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -213,4 +214,84 @@ footer .finish {
 .back-top a {
   color: white;
   padding: 10px 5px;
+}
+
+@media (max-width: 500px) {
+  .s-1 button {
+    display: none;
+  }
+  .s-1 div {
+    margin-right: 5px;
+  }
+  .s-1 div a {
+    font-size: 20px;
+  }
+  .s-1 .ul li {
+    margin: 5px;
+  }
+  .s-1 .ul li a {
+    font-size: 10px;
+  }
+  .s-2 .box-txt {
+    width: 90%;
+    margin: 0;
+  }
+  .s-2 .boxs-1 {
+    margin-top: 50px;
+  }
+  .s-2 .boxs-1 .txt {
+    margin: auto 10px;
+  }
+  .s-2 .boxs-1 .img-2 img {
+    width: 300px;
+  }
+  .s-2 .boxs-1 h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .s-2 .boxs-1 p {
+    font-size: 10px;
+    width: 100%;
+    margin: 10px 0;
+    line-height: 10px;
+  }
+  .s-2 .boxs-1 img {
+    width: 300px;
+  }
+  .s-2 .boxs-1 button {
+    font-size: 10px;
+    padding: 10px;
+  }
+  .s-2 .boxs-1 h3 {
+    font-size: 15px;
+    line-height: 10px;
+  }
+  .s-4 div img {
+    width: 300px;
+  }
+  .s-4 .txt-2 {
+    margin: 10px;
+    width: 90%;
+  }
+  .s-4 .txt-2 button {
+    margin-top: 10px;
+  }
+  .s-5 .box-1 {
+    width: 90%;
+  }
+  footer .s-6 i {
+    margin: 50px 5px;
+    font-size: 30px;
+  }
+  footer .s-6 .h-1 {
+    width: 150px;
+  }
+  footer .s-6 h6 {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  footer .finish {
+    margin-top: 50px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=styles.css.map */
